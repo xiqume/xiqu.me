@@ -611,7 +611,7 @@
 							</dl>
 						</div>
 						<div class="catalog-pinyin">
-							<dl>
+							<dl id="2_A-D">
 								<dt>A-D</dt>
 								<dd>
 									<ul>
@@ -625,7 +625,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_E-G">
 								<dt>E-G</dt>
 								<dd>
 									<ul>
@@ -648,7 +648,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_H-K">
 								<dt>H-K</dt>
 								<dd>
 									<ul>
@@ -662,7 +662,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_L-N">
 								<dt>L-N</dt>
 								<dd>
 									<ul>
@@ -685,7 +685,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_O-Q">
 								<dt>O-Q</dt>
 								<dd>
 									<ul>
@@ -699,7 +699,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_R-T">
 								<dt>R-T</dt>
 								<dd>
 									<ul>
@@ -722,7 +722,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_U-W">
 								<dt>U-W</dt>
 								<dd>
 									<ul>
@@ -736,7 +736,7 @@
 									</ul>
 								</dd>
 							</dl>
-							<dl>
+							<dl id="2_X-Z">
 								<dt>X-Z</dt>
 								<dd>
 									<ul>
@@ -763,7 +763,7 @@
 					</div>
 					<script type="text/javascript">
 						jQuery(function(){
-							var type = location.hash.substring(1) * 1;
+							var type = parseInt(location.hash.substring(1));
 							type = (type === 1 || type === 2) ? type - 1 : 0;
 							var types = $('#types li');
 							var catalogs = $('.catalog-province, .catalog-pinyin');
