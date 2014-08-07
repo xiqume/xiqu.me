@@ -195,6 +195,11 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 
 .header-wrap{padding: 20px 0;}
 .header-main{width: 1000px; margin: 0 auto 20px;}
+.header-main .logo{height: 40px;}
+.header-main .logo img{display: inline-block;}
+.header-main .sub-title{height: 24px; font-size: 22px; padding-top: 16px; line-height: 24px; margin-left: 10px; padding-left: 10px; border-left: 1px solid #EBEBEB} 
+.header-main .sub-title a{color: #999;}
+.header-main .sub-title a:hover{text-decoration: none;}
 .header-main .search{padding: 4px 0;}
 .header-main .search .ipt-text{width: 300px;}
 .nav-bar-wrap{background: #1E63B0; height: 36px; line-height: 36px;}
