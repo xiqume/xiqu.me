@@ -769,7 +769,6 @@
 							var catalogs = $('.catalog-province, .catalog-pinyin');
 							types.each(function(i,v){
 								$(this).on('click', function(){
-									location.hash = i + 1;
 									types.removeClass('cur');
 									types.eq(i).addClass('cur');
 									catalogs.hide();
