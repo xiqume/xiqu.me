@@ -223,6 +223,8 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 .catalog dl dd li{width: 150px; float: left; font-size: 16px; margin-bottom: 5px; padding-left: 6px; background: url(../img/dot.png) no-repeat left center;}
 .catalog dl dd li a:hover{color: #c00000;}
 .catalog dl dd li a.hot{color: #c00000;}
+.catalog dl dd li a.none{color: #999;}
+.catalog dl dd li a.none:hover{cursor: default;}
 
 .links a{margin-right: 10px;}
 
