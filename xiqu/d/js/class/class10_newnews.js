@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/yuju/wz/2014-07-26/2.html\" title=\"测试文章啊啊啊啊\">测试文章啊啊啊啊</a></li>");
