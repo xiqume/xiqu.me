@@ -157,7 +157,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 .mod .mod-hd .more{position: absolute; top: 20px; right: 10px; display: block; height: 20px; line-height: 20px;}
 .mod .mod-hd .more a{margin-left: 10px;}
 .mod .mod-bd{padding: 10px;}
-.mod .mod-bd ul.text-list li{height: 28px; line-height: 28px; overflow: hidden; font-size: 14px; border-bottom: 1px dashed #E4E4E4; padding-left: 6px; background: url(../img/dot.png) no-repeat left center;}
+.mod .mod-bd ul.text-list li{height: 28px; line-height: 28px; overflow: hidden; font-size: 14px; border-bottom: 1px dashed #E4E4E4; padding-left: 6px; background: url(../img/dot.png) no-repeat left center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .mod .mod-bd ul.text-list li a:hover{color: #c00000;}
 .mod .mod-bd ul.img-list li{width: 120px; float: left; margin: 0 8px 15px;}
 .mod .mod-bd ul.img-list li img{display: inline-block;}
@@ -249,7 +249,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 
 .content-article h1{text-align: center; margin-bottom: 30px; font-weight: normal; font-size: 24px; padding-bottom: 10px; border-bottom: 1px dashed #E4E4E4}
 .content-article .detail{margin-bottom: 40px;}
-.content-article .detail p{text-indent: 2em; line-height: 2.0; font-size: 14px; margin-bottom: 15px;}
+.content-article .detail p{font-size: 14px;}
 
 .main-content .similar h4{padding-bottom: 5px; border-bottom: 1px solid #EFEFEF; margin-bottom: 10px;}
 .main-content .similar ul{overflow: hidden; zoom: 1;}
