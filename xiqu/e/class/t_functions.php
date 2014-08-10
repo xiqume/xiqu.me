@@ -82,7 +82,10 @@ function sys_ShowListPage($num,$pagenum,$dolink,$dotype,$page,$lencord,$ok,$sear
 				$current = ' class="cur-page"';
 			}
 			else
-			{$select="";}
+			{
+				$select="";
+				$current="";
+			}
 			//$myoptions.="<option value='".$thispagelink."'>".$fun_r['gotos'].$go.$fun_r['gotol']."</option>";
 			$options.="<option value='".$thispagelink."'".$select.">".$fun_r['gotos'].$go.$fun_r['gotol']."</option>";
 			$pagelist.='<li'.$current.'><a href="'.$thispagelink.'">'.$go.'</a></li>';
