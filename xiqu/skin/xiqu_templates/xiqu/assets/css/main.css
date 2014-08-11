@@ -206,6 +206,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 .nav-bar{width: 1000px; margin: 0 auto;}
 .nav a{display: block; float: left; height: 36px; padding: 0 8px; color: #FFF; font-size: 14px;}
 .nav a:hover{text-decoration: none; background: #1E538F;}
+.nav a.more{float: right;}
 
 .content{width: 1000px; margin: 0 auto;}
 .hot-down{width: 280px; float: left;}
