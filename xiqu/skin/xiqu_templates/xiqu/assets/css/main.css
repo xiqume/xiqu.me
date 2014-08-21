@@ -160,6 +160,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 .mod .mod-bd ul.text-list li{height: 28px; line-height: 28px; overflow: hidden; font-size: 14px; border-bottom: 1px dashed #E4E4E4; padding-left: 6px; background: url(../img/dot.png) no-repeat left center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .mod .mod-bd ul.text-list li a:hover{color: #c00000;}
 .mod .mod-bd ul.img-list li{width: 120px; float: left; margin: 0 8px 15px;}
+.mod .mod-bd ul.img-list li .figure{display: block; margin-bottom: 5px;}
 .mod .mod-bd ul.img-list li img{display: inline-block;}
 .mod .mod-bd ul.img-list li .text{height: 40px; line-height: 20px; overflow: hidden; display: inline-block;}
 .mod .mod-bd ul.img-list li .text:hover{color: #c00000;}
