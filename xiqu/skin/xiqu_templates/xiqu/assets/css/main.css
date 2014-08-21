@@ -169,7 +169,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 .detail-list li .figure img{width: 120px; border: 1px solid #E4E4E4; padding: 4px; display: inline-block;}
 .detail-list li .detail{margin-left: 150px;}
 .detail-list li .detail .info{overflow: hidden; zoom: 1; margin-bottom: 10px;}
-.detail-list li .detail .name{font-weight: bold; font-size: 16px; float: left;}
+.detail-list li .detail .name{font-weight: bold; font-size: 16px; float: left; width: 400px;}
 .detail-list li .detail .name a{color: #1E63B0;}
 .detail-list li .detail .name a:hover{color: #c00000;}
 .detail-list li .detail .meta{float: right; font-size: 14px;}
