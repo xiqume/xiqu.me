@@ -207,6 +207,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 .nav-bar{width: 1000px; margin: 0 auto;}
 .nav a{display: block; float: left; height: 36px; padding: 0 8px; color: #FFF; font-size: 14px;}
 .nav a:hover{text-decoration: none; background: #1E538F;}
+.nav a.more{float: right;}
 
 .content{width: 1000px; margin: 0 auto;}
 .hot-down{width: 280px; float: left;}
@@ -250,7 +251,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 
 .content-article h1{text-align: center; margin-bottom: 30px; font-weight: normal; font-size: 24px; padding-bottom: 10px; border-bottom: 1px dashed #E4E4E4}
 .content-article .detail{margin-bottom: 40px;}
-.content-article .detail p{font-size: 14px;}
+.content-article .detail p{font-size: 14px; line-height: 1.6;}
 
 .main-content .similar h4{padding-bottom: 5px; border-bottom: 1px solid #EFEFEF; margin-bottom: 10px;}
 .main-content .similar ul{overflow: hidden; zoom: 1;}
