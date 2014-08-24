@@ -146,7 +146,7 @@ input.btbtn-smaller{height: 24px; _height: 22px; line-height: 22px; padding: 0 1
 
 /*pager*/
 .page ul{letter-spacing: -4px; font-size: 0;}
-.page li{display: inline-block; letter-spacing: 0; font-size: 12px; margin-right: 10px; *display: inline; zoom: 1; vertical-align: middle;}
+.page li{display: inline-block; letter-spacing: 0; font-size: 12px; margin-right: 5px; *display: inline; zoom: 1; vertical-align: middle;}
 .page li a{padding:5px 10px; display: inline-block; color: #404040; border: 1px solid #EBEBEB}
 .page li a:hover{background:#1E63B0; color:#FFF;text-decoration:none;}
 .page li.cur-page a{background:#1E63B0; color:#FFF; cursor:default;}
